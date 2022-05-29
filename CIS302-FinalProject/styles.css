@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+h1, table.table caption {
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+table.table {
+    background-color: lightgreen;
+    width: 600px;
+}
+
+table, thead, th, tbody, tr, td {
+    border: 1px solid black;
+    position: relative;
+}
+
+tr.text-center {
+    height: 360px;
+}
+
+.imgDesign {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 0 0 0 25px;
+    padding: 0;
+}
+
+.imgDesign span {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 0;
+}
+
+figure {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+figure:hover+span {
+    bottom: -75px;
+    opacity: 1;
+    z-index: 1;
+    color: black;
+}
+
+.grow img {
+    transition: 1s ease;
+}
+
+.grow img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+.personalImg {
+    padding: 10px;
+    border: 3px solid lightcoral;
+}
