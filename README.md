@@ -28,7 +28,7 @@ A simple project having our class creat a contact form.<br/>
 I chose to use this opportunity to mess around with some styles I never tried before, such as 
 radial-gradient and manipulating the radio buttons to look like actual buttons.
 
-[dsierra-yu-landingpage.netlify.app](https://dsierra-yu-landingpage.netlify.app/)
+[https://basic-contactform.netlify.app](https://basic-contactform.netlify.app)
 ---
 
 ### Restaurant Website Project:
